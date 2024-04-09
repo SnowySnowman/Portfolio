@@ -11,7 +11,7 @@ export default function Project() {
       <p>I have some text here</p>
       <Image width={140*2} height={100*2} src="/react.webp" alt="Project" />
       <p>I have an image above that you can see.</p>
-      <Link className="button" href="https://github.com/SnowySnowman/escape_room_game">Visit Project's Git Repository</Link>
+      <Link className="button" href="https://github.com/SnowySnowman/escape_room_game">Visit Project&apos;s Git Repository</Link>
     </main>
   )
 }
