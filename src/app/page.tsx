@@ -35,9 +35,16 @@ export default function Home() {
       <Link className="button" href="https://github.com/SnowySnowman">Visit My Git Profile</Link>
       <br></br>
       <Link className="button" href="https://www.linkedin.com/in/minjung-shin-187565222/">Visit My LinkedIn Profile</Link>
+      <br></br>
       <p>add resume</p>
-      <p>contact details</p>
+      <br></br>
+      <p>Currently located in: Sydney, Australia</p>
+      <br></br>
+      <p>Contact me! <b>email</b> lunashin0613@gmail.com | <b>mobile</b> 0402743423</p>
+      <br></br>
       <p>could add form</p>
+      <br></br>
+      <p>copyright of the template to GDSC USYD 2024</p>
     </main>
   );
 }
