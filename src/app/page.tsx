@@ -10,6 +10,13 @@ export default function Home() {
       <PortfolioEntryCardGroup entries={
         [
           {
+            title: "Survey Platform",
+            description: "Personal project on developing an web app for survey",
+            image: "/react.webp",
+            skills: ["add here"],
+            href: "project-4",
+          },
+          {
             title: "Portfolio Website",
             description: "This website is a portfolio of my work, and a demonstration of my skills.",
             image: "/react.webp",
