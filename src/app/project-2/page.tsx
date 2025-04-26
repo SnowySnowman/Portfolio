@@ -11,7 +11,7 @@ export default function Project() {
       
       <Link className="button" href="/">Go back</Link>
       
-      <p>
+      <p style={{ maxWidth: "600px" }}>
         This webapp project was submitted as part of the USYD Coding Fest 2024 submission.
         Through this platform, USYD students are able to get survey data quickly, and earn vouchers from answering survey questions. 
         This project received “Outstanding Project Idea Award Runner-Up”.
