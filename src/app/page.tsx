@@ -11,14 +11,14 @@ export default function Home() {
         [
           {
             title: "Narwhal Tutoring",
-            description: "Personal project on developing an web app for survey",
+            description: "Active & Commercialised tutoring website developed on Django",
             image: "/narwhal.png",
             skills: ["Django", "Full stack", "Web development", "Real world"],
             href: "project-4",
           },
           {
             title: "USurveYD",
-            description: "Description 2",
+            description: "Team project for CodingFest 2024. Rewarding USYD survey platform web app",
             image: "/react.webp",
             skills: ["Django", "JavaScript", "PostgreSQL", "Deployment"],
             href: "project-2",
@@ -30,13 +30,13 @@ export default function Home() {
             skills: ["React", "Next.js", "CSS", "HTML", "JavaScript"],
             href: "project",
           },
-          {
-            title: "Escape Room",
-            description: "Description 3",
-            image: "/lock.webp",
-            skills: ["Java", "First Project", "Collaborative work"],
-            href: "project-3",
-          },
+          // {
+          //   title: "Escape Room",
+          //   description: "Description 3",
+          //   image: "/lock.webp",
+          //   skills: ["Java", "First Project", "Collaborative work"],
+          //   href: "project-3",
+          // },
         ]
       } />
       <Link className="button" href="https://github.com/SnowySnowman">Visit My Git Profile</Link>
