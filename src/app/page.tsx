@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Heading title={"Luna's Portfolio"} description={" I am a student studying Advanced Computing... I absolutely love Web Development! I created this website at a GDSC Event, which demonstrates my passion for all things tech."}/>
+      <Heading title={"Luna's Portfolio"} description={" I am a student in Final year of Bachelor of Computing @ University of Sydney. This website runs on React. Please feel free to look around, and contact me if you have any question."}/>
       <PortfolioEntryCardGroup entries={
         [
           {
@@ -43,7 +43,7 @@ export default function Home() {
       <br></br>
       <Link className="button" href="https://www.linkedin.com/in/minjung-shin-187565222/">Visit My LinkedIn Profile</Link>
       <br></br>
-      <p>add resume</p>
+      <Link className="button" href="https://drive.google.com/file/d/1PIXgPXChtw6zE70-5pYWuUapef3oGZcZ/view?usp=sharing">Link to my resume</Link>
       <br></br>
       <p>Currently located in: Sydney, Australia</p>
       <br></br>
