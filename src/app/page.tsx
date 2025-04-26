@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Heading title={"Luna's Portfolio"} description={" I am a student in Final year of Bachelor of Computing @ University of Sydney. This website runs on React. Please feel free to look around, and contact me if you have any question."}/>
+      <Heading title={"Luna's Portfolio"} description={" I am a student in Final year of Bachelor of Computing @ University of Sydney. This website is built using React. Please feel free to look around, and contact me if you have any question."}/>
       <PortfolioEntryCardGroup entries={
         [
           {
