@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Project() {
   return (
     <main className={styles.main}>
-      <Heading title={"Project: opinion"} description={"Are you writing your opinion on comments? Or are comments writing your opinion?"}/>
+      <Heading title={"Narwhal Tutoring"} description={"Active & Commercialised tutoring website developed on Django"}/>
       <Link className="button" href="/">Go back</Link>
       <p>I have some text here</p>
       <Image width={140*2} height={100*2} src="/react.webp" alt="Project" />

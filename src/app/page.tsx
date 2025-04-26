@@ -10,11 +10,18 @@ export default function Home() {
       <PortfolioEntryCardGroup entries={
         [
           {
-            title: "Survey Platform",
+            title: "Narwhal Tutoring",
             description: "Personal project on developing an web app for survey",
-            image: "/react.webp",
-            skills: ["add here"],
+            image: "/narwhal.png",
+            skills: ["Django", "Full stack", "Web development", "Real world"],
             href: "project-4",
+          },
+          {
+            title: "USurveYD",
+            description: "Description 2",
+            image: "/react.webp",
+            skills: ["Django", "JavaScript", "PostgreSQL", "Deployment"],
+            href: "project-2",
           },
           {
             title: "Portfolio Website",
@@ -22,13 +29,6 @@ export default function Home() {
             image: "/react.webp",
             skills: ["React", "Next.js", "CSS", "HTML", "JavaScript"],
             href: "project",
-          },
-          {
-            title: "Project: Opinion",
-            description: "Description 2",
-            image: "/youtube.jpg",
-            skills: ["Skill 1", "Skill 2", "Skill 3"],
-            href: "project-2",
           },
           {
             title: "Escape Room",
